@@ -10,8 +10,19 @@ while (true) {
     Console.WriteLine("Client connected.");
     NetworkStream ns = new NetworkStream(client);
     StreamReader reader = new StreamReader(ns);
+    StreamWriter writer = new StreamWriter(ns);
     string? line = reader.ReadLine();
-    Console.WriteLine("Received: " + line);
+    switch (line)
+    {
+        case "time":
+            writer.WriteLine(DateTime.Now.ToString());
+            writer.Flush();
+            break;
+        default:
+            writer.WriteLine("Unknown command");
+            writer.Flush();
+            break;
+    }
     reader.Close();
     ns.Close();
     client.Close();
