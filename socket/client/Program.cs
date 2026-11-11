@@ -2,7 +2,7 @@
 
 const int Port = 12345;
 Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-client.Connect("127.0.0.1", Port);
+client.Connect("172.18.124.167", Port);
 NetworkStream ns = new NetworkStream(client);
 StreamWriter writer = new StreamWriter(ns);
 StreamReader reader = new StreamReader(ns);
