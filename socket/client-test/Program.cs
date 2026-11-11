@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Net.Sockets;
 
-const int N = 10;
+const int N = 50;
 
 const int Port = 12345;
 

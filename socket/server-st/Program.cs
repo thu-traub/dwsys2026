@@ -7,11 +7,11 @@ server.Listen(10);
 Console.WriteLine("Server is listening on port " + Port);
 while (true) {
     Socket client = server.Accept();
-    Console.WriteLine("Client connected.");
+    //Console.WriteLine("Client connected.");
     NetworkStream ns = new NetworkStream(client);
     StreamWriter writer = new StreamWriter(ns);
     writer.WriteLine(DateTime.Now.ToString());
-    Thread.Sleep(1000);
+    //Thread.Sleep(1000);
     writer.Flush();
     ns.Close();
     client.Close();
