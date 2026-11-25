@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:c="hello">
+    <person>
+        <name>John Doe</name>
+        <c:company>
+            <c:name>Example Company</c:name>
+        </c:company>
+    </person>
+</root>
