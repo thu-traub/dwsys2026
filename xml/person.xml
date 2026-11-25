@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<data>
+<data xmlns:c="company">
   <person>
     <name>Übung</name>
     <age>24</age>
-    <company xmlns="company">
-      <name>Example Company</name>
-    </company>
+    <c:company>
+      <c:name>Example Company</c:name>
+    </c:company>
   </person>
   <person>
     <name>Hans</name>
     <age>123</age>
+    <c:company>
+      <c:name>THU</c:name>
+    </c:company>
   </person>
   <person id="123">
     <name>Oans</name>
