@@ -1,0 +1,10 @@
+{
+  "data": {
+      "person": [
+          {"name": "Hans", "age": 12},
+          {"name": "Petra", "age": 14},
+          {"age": 1, "name": "John", "City": "Ulm", "PLZ": 1234},
+          {"tel": 123}
+      ]
+  }
+}  

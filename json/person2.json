@@ -1,0 +1,21 @@
+{
+  "data": {
+    "person": [
+      {
+        "name": "Hans",
+        "age": 12,
+        "City": "Berlin"
+      },
+      {
+        "name": "Petra",
+        "age": 14,
+        "City": ""
+      },
+      {
+        "name": "John",
+        "age": 1,
+        "City": "Ulm"
+      }
+    ]
+  }
+}
